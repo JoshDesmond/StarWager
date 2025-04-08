@@ -1,2 +1,9 @@
 # StarStake
-An app to help tournament organizers host Ante Style tournaments, where users wager StarCredits in app for an activity in competition.
+
+A tournament management platform for hosting competitive gaming events with ante-style tournaments.
+
+## Technology Stack
+
+- **Database**: Supabase (PostgreSQL)
+- **Authentication**: Supabase Auth
+- **Mobile**: Expo / React Native  (Planned)

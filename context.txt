@@ -1,0 +1,26 @@
+Project Context:
+
+I am building an application, StarStake, which will enable tournament and event organizers for competitive games to run ante style tournaments. The MVP application will be centered around a single tournament, "The Ascension". Each party attendee will download the Android or iOS application on their phone, verify their identity using their phone number, and receive 1000 StarCredits to start.
+
+Player Features:
+- As a player, I want to:
+  - Set my display name for identification
+  - View my current token count and tournament standing
+  - See the leaderboard to compare myself with others
+  - View other tournament participants to identify potential opponents
+  - View my match history and win/loss record to track performance
+  - Challenge other players to matches with custom token wagers
+  - Receive, accept, or decline challenge requests from others
+  - Be notified of challenge status updates (accepted/declined)
+  - Report match results when I win
+  - Confirm or dispute results reported by opponents
+  - Receive notifications about match result confirmations or disputes
+
+Host Administrative Features:
+- As a host, I want to:
+  - Create, start, and end events
+  - Set a tournament name for identification
+  - Invite players via URL links
+  - Monitor all players and their current status (in match, ready, away)
+  - Remove players if necessary
+  - View and resolve disputed matches to ensure fair play
