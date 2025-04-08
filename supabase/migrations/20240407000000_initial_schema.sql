@@ -1,6 +1,4 @@
 begin;
--- Enable necessary extensions
-create extension if not exists "uuid-ossp";
 
 -- Create enum types
 create type match_status as enum ('in_progress', 'completed', 'disputed');
@@ -122,10 +120,6 @@ alter table transactions enable row level security;
 create policy "No direct profile access"
     on profiles for select
     using (false);
-
-create policy "Users can view profiles in their tournaments"
-    on public_profiles for select
-    using (true);
 
 create policy "Users can view tournaments they're participating in"
     on tournaments for select
