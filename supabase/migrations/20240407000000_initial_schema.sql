@@ -8,7 +8,6 @@ create type transaction_type as enum ('initial_balance', 'match_wager', 'match_w
 -- Create profiles table (extends Supabase auth.users)
 create table profiles (
     id uuid references auth.users on delete cascade primary key,
-    phone_number text unique not null,
     user_id text not null,  -- Unique, permanent identifier
     display_name text not null,  -- Non-unique, can hypothetically be changed
     created_at timestamp with time zone default timezone('utc'::text, now()) not null,

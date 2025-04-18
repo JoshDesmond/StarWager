@@ -1,6 +1,6 @@
 Project Context:
 
-I am building an application, StarStake, which will enable tournament and event organizers for competitive games to run ante style tournaments. The MVP application will be centered around a single tournament, "The Ascension". Each party attendee will download the Android or iOS application on their phone, verify their identity using their phone number, and receive 1000 StarCredits to start.
+I am building an application, StarStake, which will enable tournament and event organizers for competitive games to run ante style tournaments. The MVP application will be centered around a single tournament, "The Ascension". Each party attendee will download the Android or iOS application on their phone, automatically join the tournament, and receive 1000 StarCredits to start.
 
 Player Features:
 - As a player, I want to:
