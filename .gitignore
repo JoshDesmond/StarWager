@@ -1,1 +1,36 @@
 .vscode/
+.idea/
+
+# Expo
+app/.expo/
+app/dist/
+app/web-build/
+app/ios
+app/android
+
+# Node
+app/node_modules/
+app/npm-debug.*
+app/*.jks
+app/*.p8
+app/*.p12
+app/*.key
+app/*.mobileprovision
+app/*.orig.*
+app/web-build/
+
+# macOS
+app/.DS_Store
+
+# Local Netlify folder
+app/.netlify
+
+# TypeScript
+app/*.tsbuildinfo
+
+# Environment variables
+app/.env
+app/.env.local
+app/.env.development.local
+app/.env.test.local
+app/.env.production.local
