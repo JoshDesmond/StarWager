@@ -2,35 +2,40 @@
 .idea/
 
 # Expo
-app/.expo/
-app/dist/
-app/web-build/
-app/ios
-app/android
+starwager/.expo/
+starwager/dist/
+starwager/web-build/
+starwager/ios
+starwager/android
 
 # Node
-app/node_modules/
-app/npm-debug.*
-app/*.jks
-app/*.p8
-app/*.p12
-app/*.key
-app/*.mobileprovision
-app/*.orig.*
-app/web-build/
+starwager/node_modules/
+starwager/npm-debug.*
+starwager/*.jks
+starwager/*.p8
+starwager/*.p12
+starwager/*.key
+starwager/*.mobileprovision
+starwager/*.orig.*
+starwager/web-build/
 
 # macOS
-app/.DS_Store
+.DS_Store
 
 # Local Netlify folder
-app/.netlify
+starwager/.netlify
 
 # TypeScript
-app/*.tsbuildinfo
+starwager/*.tsbuildinfo
 
 # Environment variables
-app/.env
-app/.env.local
-app/.env.development.local
-app/.env.test.local
-app/.env.production.local
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+starwager/.env
+starwager/.env.local
+starwager/.env.development.local
+starwager/.env.test.local
+starwager/.env.production.local
