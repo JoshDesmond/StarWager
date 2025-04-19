@@ -1,0 +1,7 @@
+- Initalized Supabase project
+- Enabled Google Auth on Supabase
+- Initialized starwager project using
+  - Initialized the project with create-expo-stack (tailwindUI and more - Looks like I lost the exact command)
+  - Had to set the JAVA_HOME environment variable `([System.Environment]::SetEnvironmentVariable('JAVA_HOME', 'C:\Program Files\Android\Android Studio\jbr', [System.EnvironmentVariableTarget]::Machine); [System.Environment]::SetEnvironmentVariable('Path', [System.Environment]::GetEnvironmentVariable('Path', [System.EnvironmentVariableTarget]::Machine) + ';C:\Program Files\Android\Android Studio\jbr\bin', [System.EnvironmentVariableTarget]::Machine)`
+  - Also had to set the ANDROID_HOME environment variable, which I did again with: `[System.Environment]::SetEnvironmentVariable('ANDROID_HOME', [System.IO.Path]::Combine($env:LOCALAPPDATA, 'Android', 'Sdk'), [System.EnvironmentVariableTarget]::Machine); [System.Environment]::SetEnvironmentVariable('Path', [System.Environment]::GetEnvironmentVariable('Path', [System.EnvironmentVariableTarget]::Machine) + ';' + [System.IO.Path]::Combine($env:LOCALAPPDATA, 'Android', 'Sdk', 'platform-tools') + ';' + [System.IO.Path]::Combine($env:LOCALAPPDATA, 'Android', 'Sdk', 'tools'), [System.EnvironmentVariableTarget]::Machine)`
+- Added a .env
